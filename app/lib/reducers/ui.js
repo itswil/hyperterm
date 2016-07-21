@@ -25,7 +25,7 @@ const initial = Immutable({
   cursorColor: '#F81CE5',
   borderColor: '#333',
   fontSize: 12,
-  padding: '12px 14px',
+  padding: '0px 0px',
   fontFamily: 'Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
   fontSizeOverride: null,
   fontSmoothingOverride: 'antialiased',

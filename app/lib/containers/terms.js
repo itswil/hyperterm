@@ -24,7 +24,7 @@ const TermsContainer = connect(
         : state.ui.fontSize,
       fontFamily: state.ui.fontFamily,
       fontSmoothing: state.ui.fontSmoothingOverride,
-      padding: state.ui.padding,
+      padding: '0px',
       cursorColor: state.ui.cursorColor,
       borderColor: state.ui.borderColor,
       colors: state.ui.colors,

@@ -77,13 +77,13 @@ export default class Header extends Component {
         top: '1px',
         left: '1px',
         right: '1px',
-        background: '#000',
+        // background: '#000',
         zIndex: '100'
       },
 
       headerRounded: {
-        borderTopLeftRadius: '6px',
-        borderTopRightRadius: '6px'
+        borderTopLeftRadius: '5px',
+        borderTopRightRadius: '5px'
       }
     };
   }

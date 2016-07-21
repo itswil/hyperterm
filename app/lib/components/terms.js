@@ -157,12 +157,14 @@ export default class Terms extends Component {
   styles () {
     return {
       terms: {
+        borderBottomLeftRadius: '5px',
+        borderBottomRightRadius: '5px',
+        'overflow': 'hidden',
         position: 'absolute',
-        marginTop: '34px',
-        top: 0,
-        right: 0,
-        left: 0,
-        bottom: 0,
+        top: '34px',
+        right: '1px',
+        left: '1px',
+        bottom: '1px',
         color: '#fff'
       },
 

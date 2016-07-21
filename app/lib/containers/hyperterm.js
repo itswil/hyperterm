@@ -13,7 +13,7 @@ class HyperTerm extends Component {
   constructor (props) {
     super(props);
     this.focusActive = this.focusActive.bind(this);
-    document.body.style.backgroundColor = props.backgroundColor;
+    document.body.style.backgroundColor = 'yellow';
     this.onTermsRef = this.onTermsRef.bind(this);
   }
 
@@ -99,17 +99,17 @@ class HyperTerm extends Component {
   styles () {
     return {
       main: {
-        position: 'fixed',
+        position: 'absolute',
         top: 0,
         left: 0,
         right: 0,
-        bottom: 0,
+        bottom: 0
         // can be overridden by inline style above
-        border: '1px solid #333'
+        // border: '1px solid #333'
       },
 
       mainRounded: {
-        borderRadius: '5px'
+        // borderRadius: '5px'
       }
     };
   }
